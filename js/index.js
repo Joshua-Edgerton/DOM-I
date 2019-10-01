@@ -40,3 +40,71 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+let navAll = document.querySelectorAll("nav a")
+navAll[0].textContent = siteContent["nav"]["nav-item-1"]
+navAll[1].textContent = siteContent["nav"]["nav-item-2"]
+navAll[2].textContent = siteContent["nav"]["nav-item-3"]
+navAll[3].textContent = siteContent["nav"]["nav-item-4"]
+navAll[4].textContent = siteContent["nav"]["nav-item-5"]
+navAll[5].textContent = siteContent["nav"]["nav-item-6"]
+
+let cta1 = document.querySelector(".cta-text h1")
+cta1.textContent = siteContent["cta"]["h1"]
+
+//Stretch - style on your own
+cta1.style.color = "red";
+//Stretch - style on your own
+
+let cta2 = document.querySelector(".cta-text button")
+cta2.textContent = siteContent["cta"]["button"]
+
+let ctaImg = document.querySelector(".cta img")
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
+
+let m1 = document.querySelectorAll(".text-content h4")
+m1[0].textContent = siteContent["main-content"]["features-h4"]
+m1[1].textContent = siteContent["main-content"]["about-h4"]
+m1[2].textContent = siteContent["main-content"]["services-h4"]
+m1[3].textContent = siteContent["main-content"]["product-h4"]
+m1[4].textContent = siteContent["main-content"]["vision-h4"]
+
+let m1Content = document.querySelectorAll(".text-content p")
+m1Content[0].textContent = siteContent["main-content"]["features-content"]
+m1Content[1].textContent = siteContent["main-content"]["about-content"]
+m1Content[2].textContent = siteContent["main-content"]["services-content"]
+m1Content[3].textContent = siteContent["main-content"]["product-content"]
+m1Content[4].textContent = siteContent["main-content"]["vision-content"]
+
+let midImg = document.querySelector("#middle-img")
+midImg.setAttribute("src", siteContent["main-content"]["middle-img-src"])
+
+let contact1 = document.querySelector(".contact h4")
+contact1.textContent = siteContent["contact"]["contact-h4"]
+
+let contactP = document.querySelectorAll(".contact p")
+contactP[0].textContent = siteContent["contact"]["address"]
+contactP[1].textContent = siteContent["contact"]["phone"]
+contactP[2].textContent = siteContent["contact"]["email"]
+
+let footerP = document.querySelector("footer p")
+footerP.textContent = siteContent["footer"]["copyright"]
+
+navAll[0].style.color = "green";
+navAll[1].style.color = "green";
+navAll[2].style.color = "green";
+navAll[3].style.color = "green";
+navAll[4].style.color = "green";
+navAll[5].style.color = "green";
+
+navAll.appendChild(childElement)
+navAll.prepend(childElement)
+childElement = "New Nav"
+let bg = document.querySelector("")
+
+
+
+
+
+
+
